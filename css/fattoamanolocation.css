@@ -13,6 +13,7 @@
     text-align: center;
     padding-top: 20px;
     padding-right: 8%;
+    text-decoration: none;
 }
 .menu-button
 {
@@ -121,7 +122,7 @@ footer
 
 .logo-container-footer {
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 15%;
     background: transparent;
     color: transparent;
     float: left;
@@ -138,7 +139,7 @@ footer
 
 .catering-link-container
 {
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .catering-link
@@ -152,7 +153,7 @@ footer
 
 .footer-menu-link-container
 {
-    margin-right: 21%;
+    margin-right: 25%;
 }
 
 .footer-menu-link
@@ -166,7 +167,7 @@ footer
 
 .footer-location-link-container
 {
-    padding-right: 6%;
+    padding-right: 12%;
 }
 
 .footer-location-link
@@ -181,7 +182,7 @@ footer
 .footer-contact-container
 {
     text-align: center;
-    padding-right: 13%;
+    padding-right: 22%;
     padding-top: 2%;
 }
 
@@ -206,4 +207,18 @@ footer
     font-variation-settings: "wght" 800;
     color: rgb(138, 138, 138);
     font-size: 30px;
+}
+
+.copyright-container
+{
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer-copyright
+{
+    text-align: center;
+    color: white;
+    font-family: "cofo-gothic-variable", sans-serif;
+    font-variation-settings: "wght" 800;
 }
