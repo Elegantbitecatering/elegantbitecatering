@@ -5,7 +5,7 @@
     color: transparent;
     float: left;
     text-align: center;
-    
+    width: 100px;    
 }
 .links
 {
@@ -31,7 +31,8 @@
 
     .b2
     {
-        padding-bottom: 30%;
+        padding-bottom: 50% !important;
+        width: 101%;
     }
 
     .b1-text
@@ -118,7 +119,6 @@ body
     color: white;
     font-size: 100px;
     text-align: center;
-    text-shadow: 30px;
 }
 
 .b1-text-container
@@ -132,6 +132,7 @@ body
     height: 70%;
     margin: 0;
     margin-top: 14%;
+    padding-bottom: 10%;
 }
 
 .b2-text-container
@@ -177,12 +178,14 @@ footer
     padding-top: 10%;
     color: white;
     position: absolute;
+    width: 10px;
 }
 
 .fl-container
 {
     padding-left: 10%;
     float: left;
+    width: 100px;
 }
 
 .footer-links
@@ -261,6 +264,10 @@ footer
 {
     cursor: pointer;
 }
+
+
+
+
 
 
 
