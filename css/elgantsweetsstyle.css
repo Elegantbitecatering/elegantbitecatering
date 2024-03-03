@@ -1,13 +1,13 @@
-.head-container
+.header-container
 {
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(228 225 229);
     white-space: nowrap;
     margin: 0px 0px 0px 0%;
     margin-bottom: 10%;
     height: 160px;
 }
-head
+header
 {
     margin: 0px;
     background-color: transparent;
@@ -23,6 +23,13 @@ head
     font-size: 60px;
     
 }
+
+.elegantsweets-button:hover
+{
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+}
+
 .links
 {
     float: center;
@@ -51,11 +58,13 @@ head
 
 .logo {
     padding: 0px;
-    background: #fff;
-    color: #fff;
-    font-size: 30px;
+    background: rgb(228 225 229);
+    color: black;
+    font-size: 80px;
     margin: 0px 0px 0px 30px;
     float: left;
+    margin-top: 1.5%;
+    margin-left: 3%;
     
 }
 
@@ -85,7 +94,7 @@ body {
 }
 .priceing-container
 {
-    background-color: #fff;
+    background-color: rgb(228 225 229);
     margin-top: 20%;
     height: 50%;
 
@@ -114,7 +123,7 @@ body {
 
 .bottom-container
 {
-    background-color: #fff;
+    background-color: rgb(228 225 229);
     margin-top: 0%;
     height: 50%;
 }
@@ -144,90 +153,103 @@ body {
 
 footer
 {
-    background-color: rgb(243, 243, 243);
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-bottom: 20%;
-    margin-bottom: 0%;
+    background-color: rgb(179, 179, 179);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    white-space: nowrap;
 }
 
-.footer-copyright
+.footer-logo
 {
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
-    color: black;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 10%;
+    color: white;
+    
 }
 
-.copyright-container
+.fl-container
 {
-    background-color: rgb(243, 243, 243);
-    padding: 0%;
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-}
-
-.footer-image
-{
-    opacity: 0%;
-}
-
-.footer-block1
-{
-    padding-left: 9%;
-    padding-top: 7%;
+    padding-left: 5%;
     float: left;
 }
 
-.footer-block2
+.footer-links
 {
-    float: left;
-    padding-top: 6%;
-    font-size: 25px;
-    font-family: Poppins, sans-serif;
+    float: center;
+    padding-left: 45%;
 }
 
-.footer-block3
+.links-text
 {
-    float: left;
-    padding-top: 6%;
-    font-size: 25px;
-    font-family: Poppins, sans-serif;
-    padding-left: 3%;
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 1%;
 }
 
-.footer-block4
+.fl-infob
 {
-    float: left;
-    padding-top: 6%;
-    font-size: 25px;
-    font-family: Poppins, sans-serif;
-    padding-left: 3%;
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.twitter-icon
+.fl-infob:hover
 {
-    padding-top: 2%;
-    padding-right: 9%;
-    float: left;
-    padding-left: 20%;
+    cursor: pointer;
 }
 
-.youtube-icon
+.footer-contact
 {
-    padding-top: 2%;
-    padding-right: 2%;
-    float: left;
+    float: right;
+    padding-right: 10%;
 }
 
-.Catering-container
+.fc-text
 {
-    padding-top: 5%;
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 20px;
 }
 
-.catering
+.fcontact-info
 {
-    color: black;
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
+
+.copyright
+{
+    border-color: transparent;
+    background-color: transparent;
+    padding-top: 5%;
+    
+}
+
+.copyright:hover
+{
+    cursor: pointer;
+}
+
+.copy-container
+{
+    padding-left: 4.6%;
+}
+
