@@ -17,11 +17,6 @@
 }
 
 @media only screen and (max-width: 600px){
-    .logo-container
-    {
-        display: none;
-        visibility: hidden;
-    }
     
     footer
     {
@@ -46,6 +41,98 @@
         padding-right: 0% !important;
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 900px){
+    footer
+    {
+        padding-bottom: 15% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px){
+    .logo-container
+    {
+        display: none;
+        visibility: hidden;
+    }
+
+    .b1
+    {
+        width: 100% !important;
+    }
+    
+    .b1-text
+    {
+        font-size: 50px !important;
+    }
+
+    .links
+    {
+        float: none !important;
+        padding-right: 17% !important;
+        text-align: center;
+        width: 100% !important;
+    }
+    .footer-links
+    {
+        visibility: hidden;
+        display: none;
+    }
+    footer
+    {
+        padding-bottom: 25% !important;
+        width: 100% !important;
+    }
+    .b2-text
+    {
+        font-size: 20px !important;
+        
+    }
+    .b2-twitter
+    {
+        font-size: 30px !important;
+    }
+    .b2
+    {
+        width: 100% !important;
+        padding-bottom: 150% !important;
+    }
+
+}
+
+@media only screen and (max-width: 460px){
+    .b2
+    {
+        padding-bottom: 200% !important;
+    }
+    .location-button
+    {
+        display: none;
+        visibility: hidden;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px){
+    footer
+    {
+        padding-bottom: 35% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px){
+    footer
+    {
+        padding-bottom: 100% !important;
+    }
+
+
 }
 
 
