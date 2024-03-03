@@ -20,11 +20,13 @@
     .logo-container
     {
         display: none;
+        visibility: hidden;
     }
     
     footer
     {
         display: none;
+        visibility: hidden;
     }
 
     .b2
@@ -44,6 +46,7 @@
         text-align: center;
     }
 }
+
 
 .menu-button
 {
