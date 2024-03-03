@@ -15,6 +15,36 @@
     padding-right: 8%;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px){
+    .logo-container
+    {
+        display: none;
+    }
+    
+    footer
+    {
+        display: none;
+    }
+
+    .b2
+    {
+        padding-bottom: 30%;
+    }
+
+    .b1-text
+    {
+        font-size: 50px !important;
+    }
+
+    .links
+    {
+        float: none !important;
+        padding-right: 0% !important;
+        text-align: center;
+    }
+}
+
 .menu-button
 {
     background-color: transparent;
