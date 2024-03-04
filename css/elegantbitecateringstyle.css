@@ -1,3 +1,169 @@
+@media only screen and (max-width: 1350px){
+    .logo-text
+    {
+        font-size: 30px !important;
+    }
+    .businesses
+    {
+        display: none;
+        visibility: hidden;
+    }
+    body
+    {
+        background-size: 110% !important;
+    }
+    .needs
+    {
+        padding-bottom: 50% !important;
+    }
+    .footer-links
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .copy-container
+    {
+        display: none;
+        visibility: hidden;
+    }
+    footer
+    {
+        padding-bottom: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .elegantsweets-button
+    {
+        font-size: 30px !important;
+    }
+    .fattoamano-button
+    {
+        font-size: 30px !important;
+    }
+    .needs
+    {
+        padding-bottom: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .logo
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .links 
+    {
+        float: none !important;
+    }
+    .description-text
+    {
+        font-size: 50px !important;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    body
+    {
+        background-size: 120% !important;
+    }
+    .n-logo
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .needs
+    {
+        padding-bottom: 70% !important;
+    }
+    footer
+    {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .nh-text
+    {
+        font-size: 60px !important;
+    }
+    .needs
+    {
+        padding-bottom: 60% !important;
+    }
+    .contact-text
+    {
+        font-size: 60px !important;
+    }
+    .ct-info
+    {
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    body
+    {
+        background-size: 140% !important;
+    }
+    .contact-text
+    {
+        font-size: 40px !important;
+    }
+    .ct-info
+    {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .needs
+    {
+        padding-bottom: 70% !important;
+    }
+    body
+    {
+        background-size: 160% !important;
+    }
+    .description-text
+    {
+        font-size: 30px !important;
+    }
+    .elegantsweets-button
+    {
+        font-size: 20px !important;
+    }
+    .fattoamano-button
+    {
+        font-size: 20px !important;
+    }
+
+}
+
+@media only screen and (max-width: 505px){
+    .links
+    {
+        padding: 0% !important;
+        padding-top: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .nh-text
+    {
+        font-size: 50px !important;
+    }
+    .ways-text
+    {
+        font-size: 50px !important;
+    }
+}
+
+
+
 .head-container
 {
     text-align: center;
