@@ -67,7 +67,7 @@
     color: transparent;
     float: left;
     text-align: center;
-    width: 100px;
+    width: 100px;  
 }
 .links
 {
@@ -332,6 +332,9 @@ footer
 {
     cursor: pointer;
 }
+
+
+
 
 
 
