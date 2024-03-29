@@ -8,6 +8,17 @@
         margin-left: 15% !important;
     }
 }
+
+::-moz-selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
+::selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
 .logo-container {
     margin-top: 20px;
     margin-left: 30px;
@@ -37,11 +48,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .menu-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.menu-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.menu-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -62,11 +92,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .location-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.location-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.location-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -110,6 +159,7 @@ body
     height: 70%;
     margin: 0;
     margin-top: 14%;
+    padding-bottom: 5%;
 }
 
 .b2-text-container
@@ -120,12 +170,20 @@ body
 
 .b2-text
 {
-    font-family: "kohinoor-odia", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 50px;
-    text-shadow: 10px;
+    font-family: "cofo-gothic-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    color: black;
+    font-size: 70px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(45deg, #837c7c, #424242);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
+
 
 .gmap-container
 {

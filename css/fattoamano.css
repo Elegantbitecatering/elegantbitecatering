@@ -136,6 +136,17 @@
 }
 
 
+::-moz-selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
+::selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
+
 .menu-button
 {
     background-color: transparent;
@@ -147,11 +158,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .menu-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.menu-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.menu-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -172,11 +202,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .location-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.location-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.location-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -233,6 +282,14 @@ body
     font-variation-settings: "wght" 800;
     color: black;
     font-size: 80px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(45deg, #424242, #837c7c);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 .b2-twitter-container

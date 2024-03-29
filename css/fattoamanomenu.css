@@ -60,6 +60,16 @@
     }
 }
 
+::-moz-selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
+::selection
+{
+    background-color: rgb(197, 197, 197);
+}
+
 .logo-container {
     margin-top: 20px;
     margin-left: 30px;
@@ -88,11 +98,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .menu-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.menu-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.menu-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -113,11 +142,30 @@
     font-size: 40px;
     color:  white;
     text-decoration: none;
+    position: relative;
+    text-decoration: none;
 }
 
 .location-button:hover
 {
-    color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+.location-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.location-button:hover:after { 
+    width: 100%; 
+    left: 0; 
     cursor: pointer;
 }
 
@@ -126,7 +174,6 @@
     background-color: transparent;
     text-decoration: none;
 }
-
 body
 {
     margin: 0;
