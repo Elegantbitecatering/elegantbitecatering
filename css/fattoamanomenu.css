@@ -279,7 +279,7 @@ body
 
 footer
 {
-    background-color: rgb(179, 179, 179);
+    background: #111111 url(https://github.com/Elegantbitecatering/elegantbitecatering/blob/main/img/bg-texture-on-blue.png?raw=true);
     padding-top: 10%;
     padding-bottom: 8%;
     white-space: nowrap;
@@ -294,6 +294,7 @@ footer
     padding-top: 10%;
     color: white;
     position: absolute;
+    width: 10px;
 }
 
 .fl-container
@@ -366,6 +367,7 @@ footer
 {
     border-color: transparent;
     background-color: transparent;
+    color: white;
 }
 
 .copy-container
@@ -379,7 +381,6 @@ footer
 {
     cursor: pointer;
 }
-
 
 
 
