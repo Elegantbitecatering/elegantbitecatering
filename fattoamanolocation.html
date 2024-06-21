@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" id="ELEGANTBITECATERINGLLC" style="scroll-behavior: smooth;">
     <head>
-        <title>Fatto A Mano</title>
+        <title>Calander | Fatto A Mano</title>
         <link rel="stylesheet" href="css/fattoamanolocation.css">
         <link rel="icon" type="image/x-icon" href="img/fattoamanoico.ico">
         <link rel="stylesheet" href="https://use.typekit.net/xor7tlf.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is where you find the location of Fatto A Mano.">
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+  
+            gtag('config', 'G-TJZW9KMR0Y');
+          </script>
     </head>
     <body>
         <header>
             <div class="header-container" id="header-container">
                 <div class="logo-container">
-                    <a href="fattoamano">
-                        <img src="img/PfpLogoWhite.png" width="100%" height="10%">   
-                    </a>   
+                    <a href="fattoamano" aria-label="Go back to Fatto A Mano's webiste.">
+                        <img src="img/PfpLogoWhite.png" width="100%" height="10%" alt="">   
+                    </a>  
                 </div>
                 <div class="links">
                     <a class="menu-container" href="fattoamanomenu">
@@ -27,21 +36,22 @@
         </header>
         <div class="b1">
             <div class="b1-text-container">
-                <a class="b1-text">Location</a>
+                <a class="b1-text">Calander</a>
             </div>
         </div>
-        <div class="b2">
+        <div class="b2" id="b2">
             <div class="b2-text-container">
-                <a class="b2-text">We are going to be at the Historic Hamilton Farmers Market for more information look at the google maps below.</a>
+                <a class="b2-text">This calendar has all of our events that we have scheduled!</a>
             </div>
             <div class="gmap-container" id="gmap-container">
-                <iframe class="gmap" width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDSWWjZV_d4rQhHo5cKshzFknD8bsx7ALs&q=101+High+St,+Hamilton,+OH+45011"></iframe>
+                <div data-tockify-component="calendar" data-tockify-calendar="fattoamano"></div>
+                <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
             </div>
         </div>
     <footer>
         <div class="footer-container">
             <div class="fl-container">
-                <img src="img/PfpLogoWhite.png" width="100%" height="10%">
+                <img src="img/PfpLogoWhite.png" width="100%" height="10%" alt="">
             </div>
             <div class="footer-contact">
                 <a class="fc-text">Contact</a>
@@ -55,12 +65,12 @@
             </div>
             <div class="footer-links">
                 <a class="links-text">Links</a>
-                <dt class="fl-info"><a href="fattoamano.html"><button class="fl-infob">FattoaMano</button></a></dt>
+                <dt class="fl-info"><a href="fattoamano"><button class="fl-infob">FattoaMano</button></a></dt>
                 <dt class="fl-info"><a href="elegantsweets"><button class="fl-infob">Sweets</button></a></dt>
-                <dt class="fl-info"><a href="https://www.elegantbitecatering.com"><button class="fl-infob">Catering</button></a></dt>
+                <dt class="fl-info"><a href="index"><button class="fl-infob">Catering</button></a></dt>
             </div>
             <div class="copyright-container">
-                <a class="copy-container" href="https://elegantbitecatering.com">
+                <a class="copy-container" href="index">
                     <button class="copyright">© 2023-2024 ELEGANTBITECATERINGLLC</button>
                 </a>
             </div>
@@ -68,3 +78,4 @@
     </footer>
     </body>
 </html>
+
