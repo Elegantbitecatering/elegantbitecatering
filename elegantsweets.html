@@ -53,7 +53,7 @@
             <a class="withphone">With phone</a>
         </div>
         <div class="phonenumber-continer">
-            <a class="phonenumber">(513)-316-0498</a>
+            <a class="phonenumber">(513)316-0498</a>
         </div>
     </div>
     </div>
@@ -64,8 +64,7 @@
         </div>
         <div class="footer-contact">
             <a class="fc-text">Contact</a>
-            <dt class="fcontact-info">(513)714-4600</dt>
-            <dt class="fcontact-info">(513)470-9551</dt>
+            <dt class="fcontact-info">(513)316-0498</dt>
             <dt class="fcontact-info">Elegantbitecatering@hotmail.com</dt>
             <dt class="fcontact-info">Butler, Ohio</dt>
         </div>
@@ -76,9 +75,22 @@
             <dt class="fl-info"><a href="fattoamano"><button class="fl-infob">FattoaMano</button></a></dt>
         </div>
         <a class="copy-container" href="https://elegantbitecatering.com">
-            <button class="copyright">© 2023-2024 ELEGANTBITECATERINGLLC</button>
+            <button class="copyright">© 2023 - <span id="current-year">2024</span> ELEGANTBITECATERINGLLC</button>
         </a>
     </div>
+    <script>
+        window.addEventListener('load', onLoad);
+    
+        function onLoad () {
+          const currentYearEl = document.getElementById('current-year');
+    
+          if (currentYearEl) {
+            const currentYear = new Date().getFullYear();
+    
+            currentYearEl.textContent = currentYear;
+          }
+        }
+      </script>
     </footer>
 </body>
 </html>
