@@ -35,37 +35,37 @@
                 <div class="pizza-container">
                     <a class="pizza-text">Pizza</a>
                 </div>
-                <dt class="b2-mm-text">Margherita $13</dt>
+                <dt class="b2-mm-text">Margherita $15.00</dt>
                 <dt class="b2-md-text">Homemade Pizza Sauce, Basil, Fresh Mozzarella, Grana Padano Cheese</dd>
-                <dt class="b2-mm-text">Veggie Lovers $14</dt>
+                <dt class="b2-mm-text">Veggie Lovers $16.00</dt>
                 <dt class="b2-md-text">Homemade Pizza Sauce, Mushrooms, Red Onions, Green Peppers, Black Olives, Parmesan, Mozzarella Cheese</dd>
-                <dt class="b2-mm-text">Pepperoni $15</dt>
+                <dt class="b2-mm-text">Pepperoni $16.00</dt>
                 <dt class="b2-md-text">Homemade Pizza Sauce, Mozzarella Cheese, Pepperoni</dd>
-                <dt class="b2-mm-text">Meat Lovers $17</dt>
+                <dt class="b2-mm-text">Meat Lovers $18.00</dt>
                 <dt class="b2-md-text">Homemade Pizza Sauce, Sausage, Pepperoni, Ham, Bacon, Garlic, Mozzarella Cheese</dd>
-                <dt class="b2-mm-text">Bacon Chicken Ranch $16</dt>
+                <dt class="b2-mm-text">Bacon Chicken Ranch $19.00</dt>
                 <dt class="b2-md-text">Ranch Dressing, Chopped Bacon, Grilled Chicken, Sautéed Onions, Sliced Roma Tomatoes</dd>
-                <dt class="b2-mm-text">Cheese Pizza $13</dt>
+                <dt class="b2-mm-text">Cheese Pizza $14.00</dt>
                 <dt class="b2-md-text">Homemade Pizza Sause, Mozzarella Cheese</dd>
                 <div class="toppings-container">
                     <a class="toppings-text">Toppings For The Cheese Pizza</a>
                 </div>
-                <dt class="b2-t-text">Pepperoni $1</dt>
-                <dt class="b2-t-text">Bacon $1</dt>
-                <dt class="b2-t-text">Chicken $1</dt>
-                <dt class="b2-t-text">Italian Sausage $1</dt>
-                <dt class="b2-t-text">Black Olives $1</dt>
-                <dt class="b2-t-text">Mushrooms $1</dt>
-                <dt class="b2-t-text">Red Onions $1</dt>
-                <dt class="b2-t-text">Green Peppers $1</dt>
-                <dt class="b2-t-text">Roma Tomatos $1</dt>
+                <dt class="b2-t-text">Pepperoni $1.75</dt>
+                <dt class="b2-t-text">Bacon $1.75</dt>
+                <dt class="b2-t-text">Chicken $1.75</dt>
+                <dt class="b2-t-text">Italian Sausage $1.75</dt>
+                <dt class="b2-t-text">Black Olives $1.50</dt>
+                <dt class="b2-t-text">Mushrooms $1.50</dt>
+                <dt class="b2-t-text">Red Onions $1.50</dt>
+                <dt class="b2-t-text">Green Peppers $1.50</dt>
+                <dt class="b2-t-text">Roma Tomatos $1.50</dt>
                 <div class="drinks-container">
                     <a class="drinks-text">Drinks</a>
                 </div>
-                <dt class="b2-mm-text">Coke $2</dt>
-                <dt class="b2-mm-text">Coke Zero $2</dt>
-                <dt class="b2-mm-text">Diet Coke $2</dt>
-                <dt class="b2-mm-text">Sprite $2</dt>
+                <dt class="b2-mm-text">Coke $2.00</dt>
+                <dt class="b2-mm-text">Coke Zero $2.00</dt>
+                <dt class="b2-mm-text">Diet Coke $2.00</dt>
+                <dt class="b2-mm-text">Sprite $2.00</dt>
                 <dt class="b2-mm-text">Bottled Water $1.50</dt>
             </div>
         </div>
@@ -76,8 +76,7 @@
             </div>
             <div class="footer-contact">
                 <a class="fc-text">Contact</a>
-                <dt class="fcontact-info">(513)714-4600</dt>
-                <dt class="fcontact-info">(513)470-9551</dt>
+                <dt class="fcontact-info">(513)316-0498</dt>
                 <dt class="fcontact-info">Elegantbitecatering@hotmail.com</dt>
                 <dt class="fcontact-info">Butler, Ohio</dt>
                 <a href="https://twitter.com/FattoaManoOhio"><i class="fa fa-twitter" style="font-size:28px;color:white"></i></a>
@@ -92,10 +91,23 @@
             </div>
             <div class="copyright-container">
                 <a class="copy-container" href="https://elegantbitecatering.com">
-                    <button class="copyright">© 2023-2024 ELEGANTBITECATERINGLLC</button>
+                    <button class="copyright">© 2023 - <span id="current-year">2024</span> ELEGANTBITECATERINGLLC</button>
                 </a>
             </div>
         </div>
+        <script>
+            window.addEventListener('load', onLoad);
+        
+            function onLoad () {
+              const currentYearEl = document.getElementById('current-year');
+        
+              if (currentYearEl) {
+                const currentYear = new Date().getFullYear();
+        
+                currentYearEl.textContent = currentYear;
+              }
+            }
+          </script>
     </footer>
     </body>
 </html>
