@@ -415,7 +415,6 @@ body {
 footer
 {
     background-color: rgb(116, 117, 116);
-    text-align: center;
     padding: 10px 0;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -503,7 +502,7 @@ footer
     border-color: transparent;
     background-color: transparent;
     padding-top: 5%;
-    
+    padding-left: 5.5%;
 }
 
 .copyright:hover
