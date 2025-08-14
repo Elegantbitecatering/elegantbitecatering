@@ -238,7 +238,7 @@
 body
 {
     margin: 0;
-    background-image: url("https://github.com/Elegantbitecatering/elegantbitecatering/blob/main/img/DDPhotos_Aug2_2025/Header_Fatto%20a%20Mano%20Wood%20Fire%20Pizza.jpg?raw=true")
+    background-image: url("img/DDPhotos_Aug2_2025/Header_Fatto a Mano Wood Fire Pizza.jpg")
 }
 .b1
 {
@@ -446,5 +446,6 @@ footer
 .copy-container a {
     text-decoration: none;
 }
+
 
 
