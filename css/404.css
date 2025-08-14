@@ -1,0 +1,130 @@
+body
+{
+    margin: 0;
+}
+.b1
+{
+    text-align: center;
+    padding-bottom: 9%;
+    padding-top: 9%;
+}
+.b1-text
+{
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 300px;
+}
+.b1-dtext
+{
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+footer
+{
+    background-color: rgb(116, 117, 116);
+    padding-top: 10%;
+    padding-bottom: 5%;
+    white-space: nowrap;
+}
+
+.footer-logo
+{
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 10%;
+    color: white;
+    
+}
+
+.fl-container
+{
+    padding-left: 5%;
+    float: left;
+}
+
+.footer-links
+{
+    float: center;
+    padding-left: 45%;
+}
+
+.links-text
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 1%;
+}
+
+.fl-infob
+{
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.fl-infob:hover
+{
+    cursor: pointer;
+}
+
+.footer-contact
+{
+    float: right;
+    padding-right: 10%;
+}
+
+.fc-text
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.fcontact-info
+{
+    color: white;
+    font-family: "kohinoor-odia", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.copyright
+{
+    border-color: transparent;
+    background-color: transparent;
+    padding-top: 5%;
+    
+}
+
+.copyright:hover
+{
+    cursor: pointer;
+}
+
+.copy-container
+{
+    padding-left: 4.6%;
+}
+
+.copy-container a {
+    text-decoration: none;
+}
