@@ -248,6 +248,48 @@ body
     padding-top: 10%;
 }
 
+.street_food_finder_Container
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+
+
+
+.street_food_finder_text
+{
+    font-family: "cofo-gothic-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    color: black;
+    font-size: 50px;
+}
+
+.street_food_finder_button
+{
+    background-color: transparent;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    font-family: "cofo-gothic-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    color: black;
+    font-size: 40px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.street_food_finder_button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 .b1-text
 {
     font-family: "cofo-gothic-variable", sans-serif;
